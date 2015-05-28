@@ -5,16 +5,19 @@
 }
 
 h1{
+        padding: 1%;
+}
+h1#topnav{
     font-size:2em;
     color: white;
     font-family: 'Raleway', sans-serif;
     padding: 1.5%;
-    position: fixed;
-    center: 10px;
+    position: relative;
+    top: -40px;
 
 }
 
-h1:hover{
+h1#topnav:hover{
     color: rgba(255,255,255,0.6);
 }
 
